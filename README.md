@@ -1,8 +1,14 @@
 # typeorm-upgrade-issue
 To run this:
+
 Install packages:
-npm install
+
+        npm install
+
 Transpile with typescript:
-tsc
+
+        tsc
+
 Run the app:
-node ./index.js
+
+        node ./index.js
