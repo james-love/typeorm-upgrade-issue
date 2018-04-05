@@ -10,9 +10,9 @@ createConnection({
   type: 'postgres',
   host: 'localhost',
   port: 5432,
-  username: 'root', // ###
-  password: 'password', // ###
-  database: 'pgdb', // ###
+  username: '', // ### IMPORTANT - YOU NEED TO SET THIS ###
+  password: '', // ### IMPORTANT - YOU NEED TO SET THIS ###
+  database: '', // ### IMPORTANT - YOU NEED TO SET THIS ###
   synchronize: true,
   logging: true,
   schema: 'sampleschema',
